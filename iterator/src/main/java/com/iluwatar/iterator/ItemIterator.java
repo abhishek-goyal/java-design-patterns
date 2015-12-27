@@ -2,12 +2,12 @@ package com.iluwatar.iterator;
 
 /**
  * 
- * Iterator interface.
+ * ItemIterator interface.
  * 
  */
 public interface ItemIterator {
 
-	boolean hasNext();
+  boolean hasNext();
 
-	Item next();
+  Item next();
 }

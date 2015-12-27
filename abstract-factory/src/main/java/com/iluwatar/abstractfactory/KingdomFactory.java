@@ -2,15 +2,15 @@ package com.iluwatar.abstractfactory;
 
 /**
  * 
- * The factory interface.
+ * KingdomFactory factory interface.
  * 
  */
 public interface KingdomFactory {
 
-	Castle createCastle();
+  Castle createCastle();
 
-	King createKing();
+  King createKing();
 
-	Army createArmy();
+  Army createArmy();
 
 }

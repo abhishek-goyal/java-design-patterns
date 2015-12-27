@@ -1,14 +1,19 @@
 package com.iluwatar.servant;
 
+/**
+ * 
+ * Royalty
+ *
+ */
 interface Royalty {
 
-    void getFed();
+  void getFed();
 
-    void getDrink();
+  void getDrink();
 
-    void changeMood();
+  void changeMood();
 
-    void receiveCompliments();
+  void receiveCompliments();
 
-    boolean getMood();
+  boolean getMood();
 }

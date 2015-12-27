@@ -7,8 +7,10 @@ package com.iluwatar.decorator;
  */
 public interface Hostile {
 
-	void attack();
+  void attack();
 
-	void fleeBattle();
+  int getAttackPower();
+
+  void fleeBattle();
 
 }

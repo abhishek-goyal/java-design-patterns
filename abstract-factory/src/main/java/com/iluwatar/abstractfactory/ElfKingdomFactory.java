@@ -2,21 +2,21 @@ package com.iluwatar.abstractfactory;
 
 /**
  * 
- * Concrete factory.
+ * ElfKingdomFactory concrete factory.
  * 
  */
 public class ElfKingdomFactory implements KingdomFactory {
 
-	public Castle createCastle() {
-		return new ElfCastle();
-	}
+  public Castle createCastle() {
+    return new ElfCastle();
+  }
 
-	public King createKing() {
-		return new ElfKing();
-	}
+  public King createKing() {
+    return new ElfKing();
+  }
 
-	public Army createArmy() {
-		return new ElfArmy();
-	}
+  public Army createArmy() {
+    return new ElfArmy();
+  }
 
 }
